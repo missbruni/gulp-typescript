@@ -1,0 +1,25 @@
+{
+  "name": "typescript-gulp",
+  "version": "1.0.0",
+  "description": "TypeScript with gulp and then add Browserify, uglify, or Watchify to the gulp pipeline.",
+  "main": "./dist/main.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/missbruni/typescript-gulp.git"
+  },
+  "author": "Bruna Lima",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/missbruni/typescript-gulp/issues"
+  },
+  "homepage": "https://github.com/missbruni/typescript-gulp#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.0.1",
+    "lodash": "^4.16.2",
+    "typescript": "^2.0.3"
+  }
+}
