@@ -17,9 +17,13 @@
   },
   "homepage": "https://github.com/missbruni/typescript-gulp#readme",
   "devDependencies": {
+    "browserify": "^13.1.0",
     "gulp": "^3.9.1",
     "gulp-typescript": "^3.0.1",
-    "lodash": "^4.16.2",
-    "typescript": "^2.0.3"
+    "gulp-util": "^3.0.7",
+    "tsify": "^1.0.7",
+    "typescript": "^2.0.3",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.7.0"
   }
 }

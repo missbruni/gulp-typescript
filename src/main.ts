@@ -1,8 +1,10 @@
 'use strict';
 
-function hello(compiler: string) {
-    console.log(`Hello from ${compiler}`)
-}
+import { sayHi } from './greet';
 
-hello('Typescript');
+const showHello = (divName: string, name: string) => {
+    const ele = document.getElementById(divName);
+    ele.innerText = sayHi(name);
+};
 
+showHello('greeting', 'Bruna');
